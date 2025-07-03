@@ -1,0 +1,50 @@
+/* Navbar Styles */
+
+.navbar {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #cccccc;
+}
+
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28 255, 255, 255, 0.7 %29)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00bcd4;
+}
+
+.navbar-nav .nav-link.text-warning {
+    color: #ffc107 !important;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.text-danger {
+    color: #dc3545 !important;
+}
