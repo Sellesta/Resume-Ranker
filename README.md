@@ -65,11 +65,10 @@
 ## 🖼 Screenshots
 
 
-```markdown
-
 ![Home Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20165134.png)
 ![Home Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20165231.png)
 ![Home Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20164943.png)
 ![Result Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20164918.png)
+
 
 
