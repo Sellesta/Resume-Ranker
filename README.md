@@ -70,5 +70,5 @@
 ![Home Page]([screenshots/home.png](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165134.png))
 ![Home Page]([screenshots/home.png](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165231.png))
 ![Home Page]([screenshots/home.png](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164943.png))
-![Result Page](screenshots/https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164918.png)
+![Result Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164918.png)
 
