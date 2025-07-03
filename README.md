@@ -64,11 +64,11 @@
 
 ## 🖼 Screenshots
 
-> *(Add screenshots of the main UI and ranked result page here)*
 
 ```markdown
-![Home Page]([screenshots/home.png](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165134.png))
-![Home Page]([screenshots/home.png](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165231.png))
-![Home Page]([screenshots/home.png](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164943.png))
-![Result Page]https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164918.png
+
+![Home Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165134.png?raw=true)
+![Home Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165231.png?raw=true)
+![Home Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164943.png?raw=true)
+![Result Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164918.png?raw=true)
 
