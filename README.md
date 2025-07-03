@@ -1,77 +1,71 @@
-Resume Ranker – NLP based tool
-**Resume Ranker** is an intelligent resume screening web application built using Flask and NLP. It allows recruiters to upload multiple resumes and match them against a job description using semantic similarity and skill comparison. This speeds up the hiring process and improves candidate shortlisting accuracy.
+# 💼 Resume Ranker – AI-Powered Resume Screening Tool
 
+**Resume Ranker** is an intelligent resume screening web application built with **Flask** and **Natural Language Processing (NLP)**. It helps recruiters rapidly match multiple resumes against a job description using **semantic similarity** and **skill extraction**, enabling faster, smarter, and more accurate shortlisting of candidates.
 
-🚀 Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.7+-blue?logo=python&style=flat-square"/>
+  <img src="https://img.shields.io/badge/Flask-2.x-black?logo=flask&style=flat-square"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square"/>
+</p>
+
+---
+
+## 🚀 Features
 
 - 🔍 **AI-Based Resume Matching**  
-  Leverages [Sentence-BERT (SBERT)](https://www.sbert.net) to calculate semantic similarity between resumes and job descriptions.
+  Uses [Sentence-BERT (SBERT)](https://www.sbert.net) to compute semantic similarity between job descriptions and resumes.
 
-- 🧠 **Skill Extraction & Comparison**  
-  Automatically extracts skills from resumes and job descriptions using spaCy or HuggingFace and compares overlap.
+- 🧠 **Automatic Skill Extraction & Comparison**  
+  Extracts relevant skills using spaCy or HuggingFace and compares them with the job requirements.
 
-- 📊 **Smart Ranking System**  
-  Calculates an **ATS-like match score** combining semantic and skill match (50/50 weighting).
+- 📊 **Smart Ranking Algorithm**  
+  Generates an **ATS-style match score** by combining semantic similarity and skill overlap (50/50 weight).
 
-- 📄 **Multi-Format Resume Support**  
-  Upload resumes in `.pdf`, `.docx`, or `.doc` formats.
+- 📄 **Supports Multiple Resume Formats**  
+  Accepts `.pdf`, `.docx`, and `.doc` files.
 
-- 🖥️ **Modern UI with Visual Results**  
-  View ranked results with match scores, matched/missing skills, and resume previews.
+- 🖥️ **User-Friendly Interface**  
+  Ranks candidates with interactive results, highlights matching/missing skills, and offers resume previews.
 
-- 🔐 **Session-Based Tracking**  
-  Secure session management for uploads and results.
+- 🔐 **Secure Session Tracking**  
+  Manages file uploads and results securely using Flask sessions.
 
+---
 
+## 🧠 Tech Stack
 
-🛠️ Tech Stack
+| Layer      | Technologies Used |
+|------------|-------------------|
+| **Frontend** | HTML, CSS (Bootstrap), JavaScript |
+| **Backend**  | Python, Flask |
+| **NLP**       | Sentence-BERT, spaCy |
+| **Parsing**   | PyPDF2, python-docx |
+| **Database**  | MySQL (via XAMPP) |
+| **Storage**   | Local file system |
+| **Hosting**   | Flask (localhost), cloud-ready |
 
-| Layer      | Technology |
-|------------|------------|
-| Frontend   | HTML, CSS (Bootstrap), JavaScript |
-| Backend    | Python (Flask) |
-| NLP        | Sentence-BERT, spaCy |
-| Parsing    | PyPDF2, python-docx |
-| Database   | MySQL via XAMPP |
-| Storage    | Local file system |
-| Hosting    | Localhost (Flask), ready for cloud |
+---
 
+## ⚙️ How It Works
 
-
-📸 Screenshots
-
-![image]()
-![image]()
-
-
-⚙️ How It Works
-
-1. Enter/paste a job description.
-2. Upload one or more resumes.
+1. Paste a **job description** into the form.
+2. Upload one or more **resumes** in PDF or DOC format.
 3. The app:
-   - Parses resume content (PDF/DOC/DOCX)
-   - Extracts and compares skills
+   - Extracts resume text
+   - Extracts and matches relevant skills
    - Uses SBERT for semantic similarity
-   - Combines both into a final match score
-4. Displays ranked resumes with skill insights and preview.
+   - Computes an overall match score
+4. Displays a **ranked list of candidates** with:
+   - Total match score
+   - Overlapping and missing skills
+   - Resume preview
 
+---
 
-🔧 Setup Instructions
+## 🖼 Screenshots
 
-🖥️ Prerequisites
-- Python 3.7+
-- pip
-- XAMPP (for MySQL) or any MySQL DB
-- virtualenv (recommended)
+> *(Add screenshots of the main UI and ranked result page here)*
 
-
-Install dependencies
-pip install -r requirements.txt
-
-
-Credits
-SBERT (Sentence-BERT)
-
-spaCy NLP Toolkit
-
-
+```markdown
+![Home Page](screenshots/home.png)
+![Result Page](screenshots/results.png)
