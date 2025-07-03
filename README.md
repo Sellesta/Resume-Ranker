@@ -67,8 +67,9 @@
 
 ```markdown
 
-![Home Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165134.png?raw=true)
-![Home Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20165231.png?raw=true)
-![Home Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164943.png?raw=true)
-![Result Page](https://github.com/Sellesta/Resume-Ranker/blob/main/Screenshot%202025-07-03%20164918.png?raw=true)
+![Home Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20165134.png)
+![Home Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20165231.png)
+![Home Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20164943.png)
+![Result Page](https://raw.githubusercontent.com/Sellesta/Resume-Ranker/main/Screenshot%202025-07-03%20164918.png)
+
 
