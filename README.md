@@ -62,6 +62,31 @@
 
 ---
 
+## 🛠 Installation & Setup
+
+Follow these steps to run Resume Ranker locally on your machine.
+
+---
+
+### 🚀 Setup Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Sellesta/Resume-Ranker.git
+   cd Resume-Ranker
+2. **Create a Virtual Environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. **For spaCy**
+   ```bash
+   python -m spacy download en_core_web_sm
+3. **Run the Flask App**
+   ```bash
+   python app.py
+
+---
+
 ## 🖼 Screenshots
 
 
